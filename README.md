@@ -1,10 +1,9 @@
-PyExifInfo
+PyExifTool
 ======================================================
 
-Yet Another python wrapper for Phil Harvey' Exiftool
-ExifTool is the corner stone library to look for when you need to extract Exif or other types of metadata whithin a picture or many other files type.
+**This is a work in progress**, forked from [gulnslym](https://github.com/guinslym/pyexifinfo).
 
-(French) ExifTool est la package de référence quand il s'agit d'analyser l'Exif ou les métadonnées d'une photo
+The main goal is to create a simple API so that I can automatically edit metadata in my photos collection with [photo_organizer](https://github.com/johan-andersson01/photo_organizer). An optional, but noble, goal is to also make this good enough for "public" use.
 
 ## Installation
 		[sudo] pip install -U pyexifinfo
