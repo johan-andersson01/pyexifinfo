@@ -20,7 +20,7 @@ def test_version_is_greater_than_8():
 
 def test_get_json():
     a = p.get_json(image)
-    assert len(a[0]) == 25
+    assert len(a[0]) == 27
 
 def test_get_csv():
     a = p.get_csv(image)
